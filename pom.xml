@@ -27,6 +27,7 @@
 		</repository>
 	</repositories>
 
+
 	<modules>
 		<module>../core-common</module>
 		<module>../core-persistence</module>
@@ -34,6 +35,7 @@
 		<module>../core-web</module>
 		<module>../core-ear</module>
 	</modules>
+	
 	<properties>
 		<!-- Explicitly declaring the source encoding eliminates the following 
 			message: -->
@@ -63,6 +65,7 @@
 
 	<dependencyManagement>
 		<dependencies>
+		
 			<dependency>
 				<groupId>net.tecgurus</groupId>
 				<artifactId>core-common</artifactId>
@@ -91,6 +94,7 @@
 				<type>war</type>
 				<scope>compile</scope>
 			</dependency>
+			
 			<dependency>
 				<groupId>org.jboss.spec</groupId>
 				<artifactId>jboss-javaee-6.0</artifactId>
